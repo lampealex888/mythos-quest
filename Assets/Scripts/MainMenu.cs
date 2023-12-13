@@ -12,7 +12,7 @@ public class MainMenu : MonoBehaviour
 
     public void OnNewGameButton()
     {
-        SceneManager.LoadScene(3);
+        SceneManager.LoadScene(2);
     }
     
     public void OnLoadGameButton()
@@ -31,7 +31,7 @@ public class MainMenu : MonoBehaviour
 
     public void OnCreditsButton()
     {
-        SceneManager.LoadScene(2);
+        SceneManager.LoadScene(1);
     }
 
     public void OnQuitButton()
